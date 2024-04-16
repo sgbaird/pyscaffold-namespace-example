@@ -99,7 +99,7 @@ copyright = "2024, Sterling G. Baird"
 # If you don’t need the separation provided between version and release,
 # just set them both to the same value.
 try:
-    from my_namespace.my_package_1 import __version__ as version
+    from my_namespace.my_package_2 import __version__ as version
 except ImportError:
     version = ""
 
